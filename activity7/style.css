@@ -1,0 +1,90 @@
+*{box-sizing: border-box;}
+.title{
+    text-align: center;
+    color: blueviolet;
+}
+.subtitle{
+    background: aqua;
+    padding:1em;
+}
+.img_container{
+    width: 80%;
+    padding: 1em;
+    margin: 2em auto;
+    position: relative;
+}
+img{
+    width: 500px;
+    height: 500px;
+    display: block;
+
+}
+.img1{
+    filter: invert(100);
+    border: 10px solid salmon;
+}
+.text1{
+    position: absolute;
+    bottom: 0%;
+    left: 6.75%;
+    background-color: rgb(220, 20, 60, 0.5);
+    border: 5px ridge purple;
+    font-size: 25px;
+    padding: 1em;
+    color: gray;
+}
+.img2{
+    border: 10px solid salmon;
+    filter: blur(10px);
+}
+.text2{
+    position: absolute;
+    bottom: 40%;
+    left: 8%;
+    background-color: rgb(162, 42, 42, 0.3);
+    font-size: 20px;
+    color: pink;
+    padding: 0.5em;
+    box-shadow: inset 5px 5px 5px;
+    border: 2px solid salmon;
+}
+.hyperlink1{
+    position: absolute;
+    bottom: 36%;
+    left: 15%;
+    background: orange;
+    color: blue;
+    padding: 0.5em;
+}
+.img3{
+    filter: sepia(100%);
+}
+.text3{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+}
+.text4{
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+    color: white;
+    text-align: center;
+    width: 100px;
+}
+.text5{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.text6{
+    position: absolute;
+    bottom: 45%;
+    color: gray;
+    left: 10%;
+    font-weight: bold;
+}
