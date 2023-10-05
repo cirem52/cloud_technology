@@ -1,0 +1,105 @@
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+
+.title{
+    text-align: center;
+    color: red;
+    transition: ease-in-out 1s;
+}
+.title:hover{
+    font-family: 'Franklin Gothic Medium';
+    color: yellowgreen;
+    text-shadow: 1px 1px 5px black;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.imgContainer1, .imgContainer2{
+    width: 200px;
+    height:140px;
+    border: ridge 12px darkred;
+    transition: ease 2s;
+    overflow: hidden;
+}
+.imgContainer1:hover{
+border-radius: 50%;
+border: dotted 1px green;
+transform: translateX(500px);
+}
+.imgContainer2:hover{
+    border-radius: 50%;
+    border: dashed 10px gray;
+    transform: scale(1.3);
+}
+.secondimg{
+    size: 50%;
+}
+.card{
+    width: 30%;
+    box-shadow: 2px 2px 5px gray;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5em;
+    transition: ease 3s;
+}
+.cardMsg{
+    font-size: 4em;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    top: 5%;
+    bottom: 10%;
+    right: 2%;
+    left: 2%;
+    text-align: center;
+    transition: ease 300ms;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px 3px crimson;
+    width: 31%;
+}
+.card:hover .cardMsg{
+    color: brown;
+    text-shadow: whitesmoke;
+}
+
+/*--------Class Activity---------*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.classActivityCard{
+    width: 15%;
+    height: 15%;
+    margin: 2em;
+    box-shadow: 0px 0px 5px 3px crimson;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: ease 1s;
+    margin-left:6.10em
+}
+.classActivityCard:hover{
+    box-shadow: none;
+    width: 16%;
+    height: 16%;
+    
+}
+.cardText{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    transition: ease 1s;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.classActivityCard:hover .cardText{
+
+    color: pink;
+    text-shadow: whitesmoke;
+}

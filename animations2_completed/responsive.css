@@ -1,0 +1,15 @@
+@media only screen and (max-width:1500px){
+    .classActivityCard{width: 150px;}
+}
+@media only screen and (max-width:1250px){
+    .classActivityCard{width: 100px;}
+}
+@media only screen and (max-width:1000px){
+    .classActivityCard{width: 70px;}
+}
+@media only screen and (max-width:850px){
+    .classActivityCard{width: 40px;}
+}
+@media only screen and (max-width:700px){
+    .classActivityCard{width: 20px;}
+}
