@@ -1,0 +1,46 @@
+.body{
+    background-color: blanchedalmond;
+}
+.title{
+    color: burlywood;
+    text-align: center;
+    background: black;
+}
+.images{
+    width: 350px;
+    border-width: 0.5em;
+    border-style: ridge;
+    border-color: white;
+}
+.title2{
+    text-align: center;
+    color: burlywood;
+    text-decoration: underline;
+    position: relative;
+    top: 50px;
+}
+
+.images2{
+    width: 350px;
+    height: 200px;
+    border-width: 0.5em;
+    border-style: ridge;
+    border-color: white;
+    margin: 8em;
+}
+.container{
+    display: flex;
+    flex-wrap: flex;
+}
+
+.text{
+    position: absolute;
+   color: whitesmoke;
+   font-size: 1.5em;
+   font-family: "Lucida Handwriting";
+   margin: 8em;
+   left: -10px;
+   bottom: -200px;
+   background-color: rgb(245, 245, 245, 70%);
+    
+}
