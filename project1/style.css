@@ -13,7 +13,7 @@ a,a:hover,a:visited,a:active{
 
 
 .main_img{
-    width: 385px;
+    width: 55vh;
     height: auto;
     margin-left: 5em;
     border: #7395ae solid 0.5em;
@@ -32,11 +32,11 @@ a,a:hover,a:visited,a:active{
     text-shadow: 5px 3px 5px black;
     box-shadow: 5px 3px 10px black;
     border-radius: 10px;
-    width: 500px;
+    width: 70vh;
     height: auto;
     margin-top: 8.5em;
 }
-.block{
+.nav_block{
     background-color: #379683;
     height: 100vh;
     width: 40vh;
@@ -99,35 +99,46 @@ a,a:hover,a:visited,a:active{
     text-shadow: 5px 3px 1px #adadad;
 }
 
-.left2{
+.map{
     display: inline-block;
     vertical-align: middle;
 }
-.right2{
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 20em;
 
-}
+
+
 .location_text{
     text-align: center;
     word-wrap: normal;
     background: #379683;
     border-radius: 5px;
     box-shadow: 5px 3px 10px black;
-
 }
+
+.flight_text{
+    text-align: center;
+    word-wrap: normal;
+    background: #379683;
+    border-radius: 5px;
+    box-shadow: 5px 3px 10px black;
+    width: 50vh;
+    position: relative;
+    left: 80vh;
+    top: 35vh;
+    color: white;
+}
+
+
 
 .container3{
     display: flex;
 }
 
-.left3{
+.nelson_lake_img{
     flex:1;
     margin-top: 5em;
 
 }
-.right3{
+.maori_tribe{
     flex:1;
     margin-left: 27.35em;
     margin-top: 5em;
@@ -305,4 +316,18 @@ a,a:hover,a:visited,a:active{
     color: orange;
     height: auto;
     width: 300px;
+}
+
+.price_table{
+    position: relative;
+    left: 67vh;
+    width: 80vh;
+    margin-top: 15vh;
+    height: auto;
+    background-color: black;
+    text-align: left;
+    color: white;
+}
+.table_row1{
+    text-align: center;
 }
