@@ -1,3 +1,22 @@
-.font-courier{
-    font-family: 'Courier New', Courier, monospace;
+
+.carousel-item:hover .remove_subtitle{
+opacity: 0;
 }
+
+.after_hover{
+    background: rgb(111, 143, 175, 0.7);
+    margin-bottom: 10vh;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0;
+    transition:  ease-in 0.3s;
+}
+
+.carousel-item:hover .after_hover{
+opacity: 1;
+translate: 0px -100px;
+}
+
+
+
+
