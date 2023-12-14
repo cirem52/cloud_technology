@@ -1,0 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.hover_green:hover{
+    background-color: #1EE196;
+}

@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <link rel="stylesheet" href="style.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,21 +13,26 @@
     <div class="container m-0" style="float:right;">
         <div class="row m-0 text-center">
 
-          <div class="col-6 my-3 mx-0 bg-info">
-           <h4 class="text-light">Home</h4>
+          <div class="col-4 my-3 bg-info p-0">
+           <a href="#home"><h4 class="text-light h-100 hover_green">Home</h4></a> 
           </div>
 
-          <div class="col-6 my-3 bg-info">
-           <h4 class="text-light">Projects</h4>
+          <div class="col-4 my-3 bg-info p-0">
+            <a href="#portfolio"><h4 class="text-light h-100 hover_green">Portfolio</h4></a>
           </div>
+
+          <div class="col-4 my-3 bg-info p-0">
+            <a href="#contact"><h4 class="text-light h-100 hover_green">Contact Me</h4></a>
+            </div>
 
         </div>
       </div>
   </head>
-  <body>
 
 
-    <div class="container mx-3">
+  <body style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+
+    <div class="container mx-3" id="#home">
 
       <div class="row">
         <div class="col my-5" >
@@ -35,36 +42,30 @@
 
         
       <div class="row">
-        <div class="col-3 px-0 text-center">
-          <h1 class="text-info border border-info w-100">Shahir's Portfolio</h1>
         </div>
         </div>
 
-        <div class="row">
-          <div class="col-3 px-0">
-            <img src="images/young.jpg" alt="" width="100%" class="border border-info">
+        <div class="row" style="background-color: #dffbf0;">
+          <div class="col-3">
+            <img src="images/young.jpg" alt="" width="100%" class="border border-info hover_green m-3">
           </div>
 
 
 
-          <div class="col-sm mx-5">
+          <div class="col-sm mx-5 w-100 my-auto">
 
-            <h2 class="text-center text-info">My Assignments</h2>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
+
+
               <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="images/project_2.png" alt="First slide">
+                <div class="carousel-item active" style="height: 20vw;">
+                  <h3 class="text-center text-info">“Words are never 'only words'; they matter because they define the contours of what we can do.” <br> ― Slavoj Žižek</h3>
                 </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="images/class_activity13.PNG" alt="Second slide">
+                <div class="carousel-item" style="height: 20vw;">
+                  <h3 class="text-center text-info">“You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.” <br> - Albert Camus</h3>
                 </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="images/class_activity14.PNG" alt="Third slide">
+                <div class="carousel-item" style="height: 20vw;">
+                  <h3 class="text-center text-info">"By believing passionately in something that still does not exist, we create it. The nonexistent is whatever we have not sufficiently desired." <br> - Franz Kafka</h3>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -84,6 +85,295 @@
 
     
     
+  <section>
+    <h1 class="text-center text-light bg-info" id="portfolio">Bootstrap</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/activity 10 bootstrap.PNG" height="200vh" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Activity 10</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/carousel bootstrap.PNG" height="200vh" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap Carousel</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/activity 13 bootstrap.PNG" height="200vh" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Activity 13</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/activity 14 bootstrap.PNG" height="200vh" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Activity 14</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal4">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1 class="text-center text-light bg-info">CSS & HTML</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/nav bars html.PNG" height="200vh" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Navigation Bars</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal5">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/day5 html.PNG" height="200vh" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Day 5</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal6">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/day 7 html.PNG" height="200vh" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Day 7</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal7">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img class="card-img-top" src="images/animations html.PNG" height="200vh" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Animations</h5>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal8">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  
+
+
+  <form action="" class="m-5" id="contact">
+    <legend class="bg-light p-2">Contact me</legend>
+    <label for="email"> Enter your email</label>
+    <input type="email" name="" id="email" class="form-control" placeholder="name@...">
+
+    <label for="comment" class="form-label mt-3">Message</label>
+    <textarea name="" id="comment" cols="30" rows="10" class="form-control"></textarea>
+
+    <a class="btn btn-primary" href="submit_form.html" role="button" class="btn btn-info mt-5" type="submit">Submit Form</a>
+
+
+</form>
+
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Activity 10</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/modal1.PNG" height="500vh" alt="">
+      </div>
+
+      <a href="https://cirem52.github.io/cloud_technology/activity_10/bootstrap_ahmed.html" class="btn btn-info"><h3>Explore Activity 10</h3></a>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Carousel</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/modal2.PNG" height="500vh" alt="">
+      </div>
+
+      <a href="https://cirem52.github.io/cloud_technology/10-26/carousel.html" class="btn btn-info"><h3>Explore Bootstrap Carousel</h3></a>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Activity 13</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/modal3.PNG" height="300vh" alt="">
+      </div>
+
+      <a href="https://cirem52.github.io/cloud_technology/collapsible_menu/class_activity.html" class="btn btn-info"><h3>Explore Activity 13</h3></a>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Activity 14</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/modal4.PNG" height="500vh" alt="">
+      </div>
+
+      <a href="https://cirem52.github.io/cloud_technology/modal/class_activity14.html" class="btn btn-info"><h3>Explore Activity 14</h3></a>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Navigation Bars</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/modal5.PNG" height="300vh" alt="">
+      </div>
+
+      <a href="https://cirem52.github.io/cloud_technology/activity/sep14.html" class="btn btn-info"><h3>Explore Navigation Bars</h3></a>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Day 5</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/modal6.PNG" height="500vh" alt="">
+      </div>
+
+      <a href="https://cirem52.github.io/cloud_technology/activity/sep14.html" class="btn btn-info"><h3>Explore Day 5</h3></a>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Day 7</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/modal7.PNG" height="450vh" alt="">
+      </div>
+
+      <a href="https://cirem52.github.io/cloud_technology/activity7/activity7.html" class="btn btn-info"><h3>Explore Day 7</h3></a>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Animations Webpage</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/modal8.PNG" height="500vh" alt="">
+      </div>
+
+      <a href="https://cirem52.github.io/cloud_technology/animations2_completed/animation.html" class="btn btn-info"><h3>Explore Animations</h3></a>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 
 
     <!-- Optional JavaScript -->
@@ -92,4 +382,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
+  <footer class="bg-info text-center">
+    <h6 class="text-center text-light">Links</h6>
+   <a href="https://www.qcc.cuny.edu/"><img src="images/qcc.jfif" height="35vh" alt=""></a>
+    <a href="instagram.com"><img src="images/instagram.jfif" height="35vh" alt=""></a>
+  </footer>
 </html>
